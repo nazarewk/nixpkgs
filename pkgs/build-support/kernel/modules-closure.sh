@@ -89,8 +89,8 @@ for module in $(< ~-/closure); do
     done || :
 done
 
-if test -d "edid" ; then
-    cp -v --parents lib/firmware/edid "$out" 2>/dev/null
+if test -e "edid" ; then
+    cp -v --parents --no-preserve=mode lib/firmware/edid "$out" 2>/dev/null
 fi
 
 # copy module ordering hints for depmod
