@@ -89,6 +89,10 @@ for module in $(< ~-/closure); do
     done || :
 done
 
+if test -d "edid" ; then
+    cp -v --parents lib/firmware/edid "$out" 2>/dev/null
+fi
+
 # copy module ordering hints for depmod
 cp $kernel/lib/modules/"$version"/modules.order $out/lib/modules/"$version"/.
 cp $kernel/lib/modules/"$version"/modules.builtin $out/lib/modules/"$version"/.
