@@ -64,6 +64,14 @@
       "url": "https://download.jetbrains.com/idea/ideaIU-2024.2.4.tar.gz",
       "build_number": "242.23726.103"
     },
+    "idea-ultimate-eap": {
+      "update-channel": "IntelliJ IDEA EAP",
+      "url-template": "https://download.jetbrains.com/idea/ideaIU-{build_number}.tar.gz",
+      "version": "2024.3",
+      "sha256": "sha256-phT2s7DUhYDqFohIE65vL75gp0cUpcGzAYO0xgAcngI=",
+      "url": "https://download.jetbrains.com/idea/ideaIU-243.21565.23.tar.gz",
+      "build_number": "243.21565.23"
+    },
     "mps": {
       "update-channel": "MPS RELEASE",
       "url-template": "https://download.jetbrains.com/mps/{versionMajorMinor}/MPS-{version}.tar.gz",

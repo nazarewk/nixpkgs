@@ -190,6 +190,9 @@ rec {
 
   idea-ultimate = buildIdea { pname = "idea-ultimate"; extraBuildInputs = [ stdenv.cc.cc lldb musl ]; };
 
+  # see https://www.jetbrains.com/idea/nextversion/
+  idea-ultimate-eap = buildIdea { pname = "idea-ultimate-eap"; extraBuildInputs = [ stdenv.cc.cc lldb musl ]; };
+
   mps = mkJetBrainsProduct { pname = "mps"; };
 
   phpstorm = mkJetBrainsProduct { pname = "phpstorm"; extraBuildInputs = [ stdenv.cc.cc musl ]; };
