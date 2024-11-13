@@ -68,9 +68,9 @@
       "update-channel": "IntelliJ IDEA EAP",
       "url-template": "https://download.jetbrains.com/idea/ideaIU-{build_number}.tar.gz",
       "version": "2024.3",
-      "sha256": "sha256-phT2s7DUhYDqFohIE65vL75gp0cUpcGzAYO0xgAcngI=",
-      "url": "https://download.jetbrains.com/idea/ideaIU-243.21565.23.tar.gz",
-      "build_number": "243.21565.23"
+      "sha256": "sha256-mOiERwPByP33bXYpqlhYgUd53jNWubDwkE1wpsy2v60=",
+      "url": "https://download.jetbrains.com/idea/ideaIU-243.21565.129.tar.gz",
+      "build_number": "243.21565.129"
     },
     "mps": {
       "update-channel": "MPS RELEASE",
